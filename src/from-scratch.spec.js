@@ -75,7 +75,7 @@ describe(testSuiteName, () => {
 
     const usernameInput = form.querySelector('input#username');
     expect(usernameInput).toBeTruthy();
-    expect(usernameInput.placeholder).toEqual('Add your username');
+    expect(usernameInput.placeholder).toEqual('Add your username'); 
     expect(usernameInput.name).toEqual('username');
     expect(usernameInput.type).toEqual('text');
 
